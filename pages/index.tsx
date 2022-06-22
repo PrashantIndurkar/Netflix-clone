@@ -4,7 +4,7 @@ import requests from '../utils/requests'
 
 import Header from '../components/Header'
 import Banner from '../components/Banner'
-import { Movie } from '../typeings.d.ts'
+import { Movie } from '../typings'
 import Row from '../components/Row'
 
 interface Props {
