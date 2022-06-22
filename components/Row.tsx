@@ -8,6 +8,7 @@ interface Props {
   movies: Movie[]
   // using firebase
   // movie: Movie | DocumentData[]
+  movie: Movie[]
 }
 
 const Row = ({ title, movies }: Props) => {
