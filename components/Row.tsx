@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react'
-import Movie from '../typeings.d.ts'
+import Movie from '../typings'
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/outline'
 import Thumbnail from './Thumbnail'
 

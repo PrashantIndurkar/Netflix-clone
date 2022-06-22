@@ -1,5 +1,5 @@
 import React from 'react'
-import { Movie } from '../typeings.d.ts'
+import { Movie } from '../typings'
 import Image from 'next/image'
 
 interface Props {
