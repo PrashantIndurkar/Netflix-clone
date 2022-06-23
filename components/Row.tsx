@@ -5,10 +5,9 @@ import Thumbnail from './Thumbnail'
 
 interface Props {
   title: string
-  movies: Movie[]
+  movies: Movie[] | DocumentData[]
   // using firebase
   // movie: Movie | DocumentData[]
-  movie: Movie[]
 }
 
 const Row = ({ title, movies }: Props) => {
