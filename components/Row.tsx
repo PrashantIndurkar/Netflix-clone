@@ -1,13 +1,11 @@
 import React, { useRef, useState } from 'react'
-import Movie from '../typings'
+import { Movie } from '../typings'
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/outline'
 import Thumbnail from './Thumbnail'
 
 interface Props {
   title: string
-  movies: Movie[] | DocumentData[]
-  // using firebase
-  // movie: Movie | DocumentData[]
+  movies: Movie[]
 }
 
 const Row = ({ title, movies }: Props) => {
